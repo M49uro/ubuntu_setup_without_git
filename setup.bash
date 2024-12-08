@@ -18,5 +18,5 @@ LANG=C xdg-user-dirs-update --force
 cd; mv デスクトップ/* Desktop; mv ダウンロード/* Downloads; mv テンプレート/* Templates; rm -rf テンプレート; mv 公開/* Public; mv ドキュメント/* Documents; mv ミュージック/* Music; mv ピクチャ/* Pictures; mv ビデオ/* Videos
 rm -rf デスクトップ ダウンロード テンプレート 公開 ドキュメント ミュージック ピクチャ ビデオ
 
-sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target -y
-sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target -y
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target
