@@ -1,5 +1,6 @@
 # ubuntu_setup_without_git
 
 chromeとvscodeとkicadとgitのセットアップ
+javaのJREとJDKも
 ファイル名日本語から英語に治す
 スリープ無効

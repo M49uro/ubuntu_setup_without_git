@@ -7,6 +7,9 @@ sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
 curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-vscode.sh | /bin/bash
 
+sudo apt install default-jre -y
+sudo apt install default-jdk -y
+
 sudo apt-get update -y
 sudo apt-get -y install kicad
 
