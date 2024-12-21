@@ -13,8 +13,6 @@ sudo apt install default-jdk -y
 sudo apt-get update -y
 sudo apt-get -y install kicad
 
-sudo apt-get install git -y
-
 sudo apt install ibus-mozc -y
 
 LANG=C xdg-user-dirs-update --force
